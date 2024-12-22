@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.log
+*.tmp
+
+# Environnements virtuels
+env/
+venv/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Fichiers sensibles
+.env
+*.pem
+*.key
+
+# Données et modèles
+*.pkl
+*.csv
+*.xlsx
+*.bak
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
