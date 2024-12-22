@@ -1,4 +1,5 @@
-#Projet de Scoring de Crédit
+# Projet de scoring de credit
+
 Ce projet a pour objectif de prédire la probabilité qu'un client puisse rembourser un crédit bancaire en utilisant des techniques d'apprentissage automatique (Machine Learning). L'objectif est de fournir aux établissements financiers un outil efficace pour évaluer la solvabilité des clients à partir de leurs données personnelles, financières et comportementales. En analysant ces données, le modèle permet d'optimiser l'approbation des prêts et de réduire les risques liés aux non-remboursements.
 
 Technologies utilisées
@@ -85,8 +86,13 @@ Structure du projet
 Le projet contient les répertoires et fichiers suivants :
 
 app.py : Code de l'API FastAPI.
+
 app_streamlit.py : Code de l'interface utilisateur Streamlit.
+
 Dockerfile : Pour construire l'image Docker.
+
 requirements.txt : Liste des dépendances Python.
+
 models/ : Contient le modèle entraîné et les encodeurs (p. ex., Gradient_boosting_model.pkl, sex_encoder.pkl).
+
 data/ : Contient les fichiers de données brutes (non inclus ici, à utiliser localement).
